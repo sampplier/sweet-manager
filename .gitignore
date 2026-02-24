@@ -3,7 +3,11 @@ target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-
+# Credenciais
+src/main/resources/.env.properties
+.env.local
+.env.production
+.env*.local
 ### STS ###
 .apt_generated
 .classpath
